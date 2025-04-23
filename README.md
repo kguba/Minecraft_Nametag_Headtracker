@@ -8,12 +8,12 @@ This magical piece of code turns your webcam into a Minecraft-like experience by
 
 ## 🎥 Features
 
-- 🏷️ Floating nametag that follows your head movements
-- 🎨 Authentic Minecraft font styling
-- 🎯 Smooth motion tracking
-- 📊 Real-time FPS counter
-- 🌈 Smart background detection for text visibility
-- 🎪 Works with any webcam
+-  Floating nametag that follows your head movements
+-  Authentic Minecraft font styling
+-  Smooth motion tracking
+-  Real-time FPS counter
+-  Smart background detection for text visibility
+-  Works with any webcam
 
 ## 🛠️ Requirements
 
@@ -22,14 +22,14 @@ This magical piece of code turns your webcam into a Minecraft-like experience by
 - Mediapipe
 - NumPy
 - PIL (Python Imaging Library)
-- A webcam that works! 📸
-- Your beautiful face 😊
+- A webcam that works! 
+- Your face 
 
 ## 📦 Installation
 
 1. Clone this repository:
 ```bash
-git clone [your-repo-url]
+git clone https://github.com/kguba/Minecraft_Nametag_Headtracker.git
 ```
 
 2. Install the required packages:
@@ -49,7 +49,7 @@ python nametag_headtracker.py
 2. Strike a pose! 🕺💃
    - The nametag will automagically appear above your head
    - Move around to see it follow you
-   - Press 'q' to quit (but why would you want to? 😉)
+   - Press 'q' to quit 
 
 ## ⚙️ Customization
 
@@ -78,7 +78,7 @@ smoothing_factor = 0.5  # Higher = smoother but slower
 - Can't see the nametag? Make sure your face is fully visible!
 - Text looking weird? Check if the Minecraft font file is in the right place
 - Camera not working? Try changing the camera index in `cv2.VideoCapture(0)`
-- Still having issues? Try turning it off and on again (yes, really! 😄)
+- Still having issues? Try turning it off and on again 
 
 ## 🎨 Behind the Scenes
 
@@ -86,7 +86,7 @@ This project uses:
 - MediaPipe for super-accurate face detection
 - OpenCV for video capture and display
 - PIL for fancy text rendering
-- Math and magic for smooth tracking ✨
+- Math and magic for smooth tracking 
 
 ## 🎉 Credits
 
